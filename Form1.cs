@@ -18,9 +18,11 @@ namespace UI
         }
         private int CantidadMesas = 0;
         private int PrecioCubiertos = 0;
+        private int MesasOcupadas = 0;
         private void Form1_Load(object sender, EventArgs e)
         {
             actualizarMesas(6);
+            ActualizarMesasAbiertas();
         }
 
         private void actualizarMesas(int NewCantidad)
@@ -59,6 +61,11 @@ namespace UI
                 }
                 CantidadMesas = NewCantidad;
             }
+        }
+        private void ActualizarMesasAbiertas()
+        {
+            MesasAbiertas.Text = (MesasOcupadas).ToString();
+            MesasDisponibles.Text = (CantidadMesas-MesasOcupadas).ToString();
         }
         private void MesaClick(object sender,EventArgs e) 
             {
