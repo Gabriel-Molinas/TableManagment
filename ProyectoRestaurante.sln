@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Busine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{621862C7-8E6C-4D7E-9A87-5E3F9951EA31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "BLL\DAL.csproj", "{CFB9537D-B076-4920-BE01-3B535DCAA452}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CFB9537D-B076-4920-BE01-3B535DCAA452}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
