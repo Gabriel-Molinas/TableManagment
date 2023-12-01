@@ -1,0 +1,6 @@
+C:\repos_Disco\facu\Entity\bin\Debug\Entity.dll
+C:\repos_Disco\facu\Entity\bin\Debug\Entity.pdb
+C:\repos_Disco\facu\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\repos_Disco\facu\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\repos_Disco\facu\Entity\obj\Debug\Entity.dll
+C:\repos_Disco\facu\Entity\obj\Debug\Entity.pdb
