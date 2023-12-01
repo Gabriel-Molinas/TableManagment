@@ -43,7 +43,9 @@
             this.CerrarButton = new System.Windows.Forms.Button();
             this.ModificarButton = new System.Windows.Forms.Button();
             this.EliminarButton = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // MesaLabel
@@ -119,7 +121,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(660, 73);
+            this.radioButton1.Location = new System.Drawing.Point(3, 7);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(62, 17);
             this.radioButton1.TabIndex = 10;
@@ -131,7 +133,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(660, 115);
+            this.radioButton2.Location = new System.Drawing.Point(3, 49);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(109, 17);
             this.radioButton2.TabIndex = 11;
@@ -187,18 +189,26 @@
             this.EliminarButton.UseVisualStyleBackColor = true;
             this.EliminarButton.Visible = false;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.radioButton1);
+            this.panel1.Controls.Add(this.radioButton2);
+            this.panel1.Location = new System.Drawing.Point(623, 93);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(146, 74);
+            this.panel1.TabIndex = 19;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.EliminarButton);
             this.Controls.Add(this.ModificarButton);
             this.Controls.Add(this.CerrarButton);
             this.Controls.Add(this.TicketButton);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
@@ -211,6 +221,8 @@
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,5 +245,6 @@
         private System.Windows.Forms.Button CerrarButton;
         private System.Windows.Forms.Button ModificarButton;
         private System.Windows.Forms.Button EliminarButton;
+        private System.Windows.Forms.Panel panel1;
     }
 }
