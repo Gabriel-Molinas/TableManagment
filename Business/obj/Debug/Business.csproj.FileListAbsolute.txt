@@ -1,0 +1,11 @@
+C:\repos_Disco\facu\Business\bin\Debug\Business.dll
+C:\repos_Disco\facu\Business\bin\Debug\Business.pdb
+C:\repos_Disco\facu\Business\bin\Debug\BLL.dll
+C:\repos_Disco\facu\Business\bin\Debug\Entity.dll
+C:\repos_Disco\facu\Business\bin\Debug\BLL.pdb
+C:\repos_Disco\facu\Business\bin\Debug\Entity.pdb
+C:\repos_Disco\facu\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\repos_Disco\facu\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\repos_Disco\facu\Business\obj\Debug\Business.csproj.CopyComplete
+C:\repos_Disco\facu\Business\obj\Debug\Business.dll
+C:\repos_Disco\facu\Business\obj\Debug\Business.pdb

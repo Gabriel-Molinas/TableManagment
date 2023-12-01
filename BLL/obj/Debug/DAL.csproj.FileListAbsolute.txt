@@ -1,0 +1,9 @@
+C:\repos_Disco\facu\BLL\bin\Debug\BLL.dll
+C:\repos_Disco\facu\BLL\bin\Debug\BLL.pdb
+C:\repos_Disco\facu\BLL\bin\Debug\Entity.dll
+C:\repos_Disco\facu\BLL\bin\Debug\Entity.pdb
+C:\repos_Disco\facu\BLL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\repos_Disco\facu\BLL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\repos_Disco\facu\BLL\obj\Debug\DAL.csproj.CopyComplete
+C:\repos_Disco\facu\BLL\obj\Debug\BLL.dll
+C:\repos_Disco\facu\BLL\obj\Debug\BLL.pdb
